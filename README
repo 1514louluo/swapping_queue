@@ -1,0 +1,16 @@
+This is a swapping-queue, implement by double-ring-linklist, be careful that this version only use it in one producer and one comsumer model!
+
+How to use?
+	You can use it as your src file, certainly you can compile it to a lib then include and call it.
+	when you compile it, you must contain "-lpthread -lrt"
+
+How to run the test?
+	Simply use the cmd:
+		gcc swap_queue.c test.c -lpthread -lrt -o test
+	then use the cmd:
+		./test
+
+License: MIT
+	have fun!
+
+Author: louluo<18915413902@163.com>
